@@ -130,3 +130,35 @@ Installed, authorized, and configured DHCP with an active scope.
 Demonstrates the configured DHCP scope for client devices within the corporate LAN.
 
 ![DHCP Scope](screenshots/dhcp-scope-configured.png)
+## Active Directory Organizational Structure
+
+Created Organizational Units (OUs) for HR, IT, and Sales departments and assigned users to the appropriate departments.
+
+This structure allows for easier administration and targeted Group Policy deployment.
+
+![Active Directory OUs](screenshots/active-directory-ou-structure.png)
+## DNS Configuration
+
+Configured an Active Directory integrated DNS zone to provide name resolution for domain services and client systems.
+
+This allows clients to locate domain controllers and authenticate successfully.
+
+![DNS Configuration](screenshots/helpdask-local-dns-zone.png)
+## Group Policy Deployment
+
+Created a Group Policy Object named `HR - USB Restrictions` and linked it to the HR Organizational Unit.
+
+The policy prevents HR employees from copying sensitive company information to USB storage devices while allowing normal access for other departments.
+
+![GPO Link](screenshots/hr-usb-restrictions-gpo-link.png)
+
+### Policy Configuration
+
+Configured the policy to deny write access to removable disks.
+
+![USB Restriction Policy](screenshots/hr-gpo-usb-write-block-enabled.png)
+## Domain Membership Verification
+
+Verified successful domain membership and Active Directory integration.
+
+![Domain Membership](screenshots/client-domain-join-success.png)
