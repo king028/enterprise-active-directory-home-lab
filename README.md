@@ -123,3 +123,10 @@ Installed, authorized, and configured DHCP with an active scope.
 - VLAN Segmentation
 - Routing and NAT
 - Network Monitoring
+## Screenshots
+
+### DHCP Scope Configuration
+
+Demonstrates the configured DHCP scope for client devices within the corporate LAN.
+
+![DHCP Scope](screenshots/dhcp-scope-configured.png)
