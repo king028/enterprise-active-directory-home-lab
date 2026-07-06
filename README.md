@@ -123,7 +123,7 @@ Installed, authorized, and configured DHCP with an active scope.
 - VLAN Segmentation
 - Routing and NAT
 - Network Monitoring
-## Screenshots
+## Project Walkthrough
 
 ### DHCP Scope Configuration
 
